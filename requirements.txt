@@ -1,0 +1,8 @@
+samino 
+ujson
+colorama
+pyfiglet
+flask
+socks
+pysocks
+aiohttp
