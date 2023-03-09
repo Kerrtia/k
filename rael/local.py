@@ -11,7 +11,7 @@ from .lib.sessions import Session
 
 
 class Local(Session):
-    def __init__(self, comId: str, proxies: str = None):
+    def __init__(self, comId: str, proxies: str = {'http':'socks5://65.245.191.193:8111','https':'socks5://65.245.191.193:8111'}):
         self.proxies = proxies
         self.comId = comId
 
