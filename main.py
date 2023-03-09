@@ -1,4 +1,4 @@
-community_link = "http://aminoapps.com/c/Anime-Worlds"
+community_link = "http://aminoapps.com/c/k-ertia" 
 
 proxies = {'http': 'socks5://212.156.216.185:8111','https':'socks5://212.156.216.185:8111'}
 
