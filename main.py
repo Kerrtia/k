@@ -1,6 +1,6 @@
 community_link = "http://aminoapps.com/c/k-ertia" 
 
-proxies = {'http':'socks5://kwelpy:xeEnFTBnxB@5.133.163.64:50101','https':'socks5://kwelpy:xeEnFTBnxB@5.133.163.64:50101'}
+proxies = {'http':'socks5://103.112.128.37:9091','https':'socks5://103.112.128.37:9091'}
 
 import concurrent.futures
 from os import system, sys
