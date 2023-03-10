@@ -12,7 +12,7 @@ from .sockets import Wss
 #{'http': 'socks5://kwelpy:xeEnFTBnxB@5.133.163.64:50101','https':'socks5://kwelpy:xeEnFTBnxB@5.133.163.64:50101'}
 
 class Client(Wss, Session):
-    def __init__(self, deviceId: str = 42018060F4195790EE4AF93B2E844F46635DFABA92CF933D1CDC5F8AE8CDC00BC1FFAA1205BC2FF172", proxies: str = {'socks5://kwelpy:xeEnFTBnxB@5.133.163.64:50101','https':'socks5://kwelpy:xeEnFTBnxB@5.133.163.64:50101'} trace: bool = False):
+    def __init__(self, deviceId: str = 42018060F4195790EE4AF93B2E844F46635DFABA92CF933D1CDC5F8AE8CDC00BC1FFAA1205BC2FF172", proxies: str = {'socks5://103.112.128.37:9091','https':'socks5://103.112.128.37:9091'} trace: bool = False):
         self.trace = trace
         self.proxies = proxies
         self.deviceId = deviceId
