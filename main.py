@@ -175,9 +175,9 @@ else:
 
     def main():
         for acc in date:
-            email = acc['sultanaaisha47@gmail.com']
-            password = acc['ViqarunnisaNoon']
-            device = acc['42018060F4195790EE4AF93B2E844F46635DFABA92CF933D1CDC5F8AE8CDC00BC1FFAA1205BC2FF172"']
+            email = acc['email']
+            password = acc['password']
+            device = acc['device']
             threadit(email=email, password=password, device=device)
 
 
